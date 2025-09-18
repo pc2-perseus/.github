@@ -76,4 +76,4 @@ PERSEUS comes with the following components:
 ## License
 
 This project is licensed under the terms of the **MIT License**.
-See the [LICENSE](https://github.com/pc2-perseus/perseus/LICENSE) file for details.
+See the [LICENSE](https://github.com/pc2-perseus/perseus/tree/main/LICENSE) file for details.
