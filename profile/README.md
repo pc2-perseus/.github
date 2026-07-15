@@ -25,6 +25,18 @@ PERSEUS is a compute project management software for scientific HPC centers. It 
 * deploy center-wide automation
 * fully customize workflow items (states), (micro)services and reports
 
+Here’s a first look at the software:
+
+<img src="screens.gif" alt="PERSEUS logo" />
+
+## What's new?
+
+<!-- CHANGELOG START -->
+<!-- CHANGELOG END -->
+
+<a href="https://perseus-project.pc2.uni-paderborn.de/changelog/">Click here to view the complete changelog</a>.
+
+
 ## Getting Started
 
 There are multiple ways to run PERSEUS.
