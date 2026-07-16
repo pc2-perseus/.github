@@ -32,6 +32,39 @@ Here’s a first look at the software:
 ## What's new?
 
 <!-- CHANGELOG START -->
+Version **0.15.0** includes the following updates:
+
+
+### PERSEUS
+
+- _Added_
+  - New endpoint providing an overview of compute projects with usage data, including recent job counts and pending/running jobs
+  - Indicator colors for resource priorities
+  - Group job support across the job manager and frontend
+  - Extended resource data model with parent hierarchy, default partitions, trackable resources, and minimum, maximum, and default values
+  - Updated resource manager frontend to support the new resource fields when creating or editing resources
+  - New endpoint allowing users to update their email address
+  - Isolated MongoDB test environments using TestContainers for deterministic, self-contained test runs
+- _Fixed_
+  - Resource values are now visible and editable in the project editor when the browser window is narrow
+  - Phase date rows in "All resources & limits" can now be expanded by clicking the row, matching the behavior of compute project entries
+  - Requests authenticated via the `Perseus-Token` header are now correctly resolved for identity-dependent service logic instead of being silently treated as unauthenticated
+
+### Andromeda
+
+- _Added_
+  - Redesigned "My Projects" page
+  - Email address update in the profile section with validation that rejects common private email providers
+  - Group job display in job tables
+- _Changed_
+  - Updated npm dependencies to latest versions and upgraded Node to version 24 LTS
+
+### Gateway
+
+- _Added_
+  - Added the frontend configuration endpoint to the list of allowed endpoints
+- _Fixed_
+  - Login no longer fails when a user's username is not set
 <!-- CHANGELOG END -->
 
 <a href="https://perseus-project.pc2.uni-paderborn.de/changelog/">Click here to view the complete changelog</a>.
